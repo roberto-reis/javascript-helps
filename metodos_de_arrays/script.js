@@ -56,5 +56,25 @@ let lista3 = [];
 
 let res = lista3;
 
-console.log("Resultado: ", res);
+let pessoa = {
+    nome: 'Roberto',
+    sobrenome: 'Reis',
+    idade: 33,
+    social: {
+        facebook:'jroberto',
+        instagran: {
+            url:'@roberto',
+            seguidores: 1000
+        }
+    }
+};
+
+// let { nome, idade, social:{instagran:{url:instagran, seguidores}} } = pessoa
+// let { nome, idade, social:{instagran} } = pessoa
+
+function pegarNomeCompleto({nome, sobrenome}) {
+    return `${nome} ${sobrenome}`;
+}
+
+console.log(pegarNomeCompleto(pessoa));
 

@@ -24,9 +24,9 @@
 
 
 async function requisitar2() {
-    const url = "https://alunos.b7web.com.br/api/ping";
+    const url = "https://api.hgbrasil.com/weather";
     const params= {
-        method:'POST',
+        method:'GET',
         body:JSON.stringify({
             nome:'José Roberto',
             idade: 33

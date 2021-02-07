@@ -1,0 +1,28 @@
+body {
+    background-color: #666;
+    color: #fff;
+    font-size: 15px;
+}
+
+.area {
+    width: 300px;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+#calcular {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 23px;
+}
+
+#resultado {
+    border: 1px dashed #fff;
+    background-color:#ff6347;
+    padding: 20px;
+    font-size: 15px;
+    width: 300px;
+    margin: 20px auto;
+}

@@ -1,0 +1,7 @@
+@import "base.css";
+
+#n1, #n2 {
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+}
